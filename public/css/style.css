@@ -1,0 +1,45 @@
+
+/* colores base */
+:root {
+  --color-bg: #188bcec2;
+  --color-primary: #00e5ff;
+  --color-secondary: #ffffff;
+  --color-gray: #b5b5b5;
+
+  --font-main: 'Inter', sans-serif;
+}
+
+/* ============================
+      ESTILOS GENERALES
+============================= */
+body {
+  background: radial-gradient(circle at top right, #010c22 50%);
+  font-family: var(--font-main);
+  color: var(--color-secondary);
+  margin: 0;
+  padding: 0;
+}
+
+/* links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+/* ============================
+      HEADER TEMPORAL
+============================= */
+header nav a {
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+/* ============================
+      MAIN
+============================= */
+main {
+  padding: 20px;
+}
