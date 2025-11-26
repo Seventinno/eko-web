@@ -1,0 +1,27 @@
+{
+  "name": "eko-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/styles.scss public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seventinno/eko-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Seventinno/eko-web/issues"
+  },
+  "homepage": "https://github.com/Seventinno/eko-web#readme",
+  "devDependencies": {
+    "sass": "^1.94.2"
+  }
+
+  
+}
